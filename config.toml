@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "Le bloc-notes d'un sysadmin parmi tant d'autres"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -27,6 +27,38 @@ paginate     = 10
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$ echo mxdjo.xyz 😀"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    logoCursorDisabled = true
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/mxdjo"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@mxdjo.xyz"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/mxdjo"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/mario-fadegnon/"
 
 [taxonomies]
     category = "blog"
@@ -35,14 +67,14 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
+    title = "echo mxdjo.xyz 😀"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "echo mxdjo.io"
+      logoText = "echo mxdjo.xyz"
       logoHomeLink = "/"
     # or
     #
