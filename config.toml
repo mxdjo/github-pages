@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "mxdjo.github.io"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme        = "hello-friend-ng"
@@ -68,7 +68,7 @@ paginate     = 10
 [languages]
   [languages.en]
     title = "echo mxdjo.xyz 😀"
-    subtitle = "A simple theme for Hugo"
+    subtitle = "Le bloc notes d'un sysadmin"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -82,7 +82,30 @@ paginate     = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+##### Sample ########
+#  [[menu.main]]
+#    identifier = "blog"
+#    name       = "Blog"
+#    url        = "/posts"
+##### End sample ######
+
+[[menu.main]]
+    identifier = "blogroll"
+    name       = "blogroll"
+    url        = "/posts/blogroll"
+
+[[menu.main]]
+    identifier = "divers"
+    name       = "divers"
+    url        = "/posts/divers"
+
+[[menu.main]]
+    identifier = "sysadmin101"
+    name       = "sysadmin 101"
+    url        = "/posts/sysadmin-101"
+
+
+[[menu.main]]
+    identifier = "outilsdevops"
+    name       = "outils devops"
+    url        = "/posts/outils-devops"
